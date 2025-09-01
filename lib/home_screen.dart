@@ -120,7 +120,6 @@ class _HomeScreenState extends State<HomeScreen> {
               ),
             ),
             SizedBox(height: 20),
-            
           ],
         ),
       ),
@@ -269,10 +268,12 @@ class _SocialMediaCardComponentState extends State<SocialMediaCardComponent> {
                                     ),
                                     child: Row(
                                       spacing: 8,
+                                      mainAxisAlignment:
+                                          MainAxisAlignment.center,
                                       children: [
                                         Icon(
                                           isFollowing
-                                              ? Icons.minimize
+                                              ? Icons.remove
                                               : Icons.add,
                                           color: Colors.black,
                                         ),
