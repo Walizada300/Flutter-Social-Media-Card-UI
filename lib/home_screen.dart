@@ -276,6 +276,7 @@ class _SocialMediaCardComponentState extends State<SocialMediaCardComponent> {
                                               ? Icons.remove
                                               : Icons.add,
                                           color: Colors.black,
+                                          size: 20,
                                         ),
                                         Text(
                                           isFollowing ? "Unfollow" : "Follow",
